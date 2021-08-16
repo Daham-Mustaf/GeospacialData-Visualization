@@ -66,13 +66,10 @@ public class WFSLayer extends Layer {
 				Point lower = point_from4326_to25832(lCoY, lCoX);
 				Point upper = point_from4326_to25832(UpcoY, UpcoX);
 				env = new Envelope(lower.getX(), upper.getX(), lower.getY(), upper.getY());
-
 			}
-
 		} catch (JDOMException | IOException e) {
 			e.printStackTrace();
 		}
-
 		return env;
 	}
 
@@ -107,13 +104,11 @@ public class WFSLayer extends Layer {
 		} catch (JDOMException | IOException e) {
 			e.printStackTrace();
 		}
-		/** TO DO **/
 		return result;
 	}
 
 	/**
 	 * transforms point from epsg:4326 to epsg:25832
-	 * 
 	 * @param lat
 	 * @param lon
 	 * @return
