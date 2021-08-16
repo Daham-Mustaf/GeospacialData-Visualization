@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/geotools-24.0-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="lib/gt-epsg-hsql-22.2.jar"/>
+	<classpathentry kind="lib" path="lib/gt-wfs-ng-21.3.jar"/>
+	<classpathentry kind="lib" path="lib/hsqldb-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/IGGGIS_v1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jdom-2.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/jts-1.17.1-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="lib/postgis-2.5.0-jar-with-dependencies.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
